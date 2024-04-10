@@ -1,0 +1,15 @@
+//set up
+npm i -g @nestjs/cli@lastest
+nest new my-project-name
+
+//Lỗi không thực hiện được lệnh nest
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+//Install mongoose
+npm install @nestjs/mongoose mongoose
+
+//Quick create rest API project
+nest g resource user
+
+//Start
+npm run start:dev

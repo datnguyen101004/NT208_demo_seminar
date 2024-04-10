@@ -1,4 +1,4 @@
-//set up
+//Install nestjs
 npm i -g @nestjs/cli@latest
 
 //Create project

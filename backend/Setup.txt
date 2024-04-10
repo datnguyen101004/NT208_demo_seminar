@@ -1,5 +1,7 @@
 //set up
-npm i -g @nestjs/cli@lastest
+npm i -g @nestjs/cli@latest
+
+//Create project
 nest new my-project-name
 
 //Lỗi không thực hiện được lệnh nest
